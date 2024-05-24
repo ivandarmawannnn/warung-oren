@@ -1,0 +1,212 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  border: none;
+  text-decoration: none;
+  font-family: "poppins", sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: orange;
+  padding: 0 3rem;
+  position: fixed;
+  height: 80px;
+  right: 0;
+  left: 0;
+  z-index: 999999;
+}
+
+.navbar .navbar-logo {
+  font-size: 32px;
+  font-weight: 700;
+  color: #222;
+  transition: 0.2s;
+}
+
+.navbar .navbar-logo:hover {
+  color: #fffafa;
+}
+
+.navbar .navbar-nav a {
+  color: #222;
+  display: inline-block;
+  font-size: 16px;
+  margin: 0 1rem;
+  transition: 0.2s;
+}
+
+.navbar .navbar-nav a:hover {
+  color: #fffafa;
+}
+
+#menu1 {
+  /*background-image: url(img/aboutus1.png);*/
+  top: 80px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  text-align: center;
+  font-size: 50px;
+}
+
+#menu1 .hero .container {
+  text-align: left;
+}
+
+#menu1 .hero .container h1 {
+  color: white;
+  padding-top: 200px;
+  padding-left: 170px;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#menu1 .hero .container h1 .putih {
+  color: orange;
+  background-color: white;
+  text-shadow: none;
+}
+
+#menu2 {
+  height: 600px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+}
+
+.judul {
+  font-size: 60px;
+  font-weight: bold;
+  color: orange;
+  padding-top: 50px;
+  text-align: center;
+}
+
+.kiri, .kanan2{
+  width: 60%;
+}
+
+.text {
+  text-align: center;
+  padding: 30px 50px 30px 50px;
+  line-height: 1.5;
+  font-size: 25px;
+}
+
+.kanan, .kiri2 {
+  display: flex;
+  width: 40%;
+  height: 600px;
+  overflow: hidden;
+}
+
+.kanan img {
+  width: 100%;
+  height: 700px;
+  object-fit :cover;
+}
+
+#menu3 {
+  height: 600px;
+  background-color: orange;
+  display: flex;
+  justify-content: space-between;
+}
+
+.judul2 {
+  font-size: 60px;
+  font-weight: bold;
+  color: white;
+  padding-top: 50px;
+  text-align: center;
+  text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.text2 {
+  text-align: center;
+  padding: 30px 50px 30px 50px;
+  line-height: 1.5;
+  font-size: 25px;
+}
+
+.kiri2 img {
+  width: 100%;
+  height: 605px;
+  object-fit :cover;
+}
+
+#menu4 {
+  height: 650px;
+  text-align: center;
+  font-size: 30px;
+}
+
+#menu4 img {
+  margin-top: 55px;
+  width: 200px;
+  height: 200px;
+}
+
+
+/* Footer */
+.atas {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px;
+  background-color: #222;
+}
+
+.logoo {
+  font-size: 50px;
+  font-weight: 700;
+  color: orange;
+  padding-left: 80px;
+}
+
+.logoo:hover {
+  color: #fffafa;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid orange;
+}
+
+.sosmed {
+  color: orange;
+  padding-right: 80px;
+}
+
+.sosmed p {
+  margin-bottom: 10px;
+}
+
+.social {
+  display: flex;
+  justify-content: space-between;
+}
+
+.social a {
+  color: orange;
+  border-radius: 50%;
+  font-size: 35px;
+  transition: 0.3s;
+}
+
+.social a:hover {
+  color: #fffafa;
+  transform: scale(1.1);
+}
+
+.bawah p {
+  text-align: center;
+  padding: 20px;
+  background-color: #222;
+  color: orange;
+}
